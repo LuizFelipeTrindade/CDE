@@ -15,3 +15,43 @@ p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
+
+.RoadMap {
+    display: flex;
+    margin-right:-28% ;
+    margin-left: 5%;
+    margin-top: 2%;
+}   
+
+img {
+    height: 100%;
+    width: 70%;
+
+}
+
+/* ======================================== */
+
+.D {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight: bold;
+    font-size: 15px;
+
+    margin-top: 2%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline ;
+}
+
+p{ 
+    margin-top: 1%;
+}
