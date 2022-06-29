@@ -14,6 +14,7 @@ h1{
 p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
 }
 
 
@@ -52,6 +53,17 @@ a:hover {
     text-decoration: underline ;
 }
 
-p{ 
-    margin-top: 1%;
+.p {
+    margin: 3%;
+}
+
+h3 {
+    margin-bottom: 1%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.d1 {
+    text-align: left;
+    font-weight: bold;
 }
