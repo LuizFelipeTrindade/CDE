@@ -1,0 +1,5 @@
+#Ignorar programas em binários
+*.o
+
+#Ignorar programas executáveis
+*.exe
