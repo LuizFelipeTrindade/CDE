@@ -6,42 +6,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-h1{ 
+
+.cont1 {
+    padding: 15px;
+    background-color: #610DFA;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+}
+
+.cont1 h1{
+     
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
 }
 
-p {
+.p1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 1%;
+    margin-top: 3%;
+    font-weight: bold;    
 }
 
 
-.RoadMap {
-    display: flex;
-    margin-right:-28% ;
-    margin-left: 5%;
-    margin-top: 2%;
-}   
-
-img {
-    height: 100%;
-    width: 70%;
-
-}
 
 /* ======================================== */
 
-.D {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    
-    font-weight: bold;
-    font-size: 15px;
 
-    margin-top: 2%;
-}
 
 a {
     color: blue;
@@ -53,10 +44,6 @@ a:hover {
     text-decoration: underline ;
 }
 
-.p {
-    margin: 3%;
-}
-
 h3 {
     margin-bottom: 1%;
     text-align: center;
@@ -64,6 +51,10 @@ h3 {
 }
 
 .d1 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
+    width: 25em;  
+    word-wrap: break-word; 
+    margin: auto;
+    padding: 2%;
 }
