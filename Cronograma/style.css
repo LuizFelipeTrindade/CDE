@@ -5,11 +5,13 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;800&display=swap');
+
 
 
 .cont1 {
     padding: 15px;
-    background-color: #610DFA;
+    background-image: linear-gradient(to left, #600dfaa1, rgba(0, 0, 255, 0.692));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
 }
 
@@ -47,14 +49,35 @@ a:hover {
 h3 {
     margin-bottom: 1%;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 
 .d1 {
     text-align: center;
-    font-weight: bold;
     width: 25em;  
     word-wrap: break-word; 
     margin: auto;
     padding: 2%;
+    font-family: 'Kanit', sans-serif;;
+}
+
+.principal .sectiontext{
+    border-radius: 5px;
+    width: 50%;
+    margin:auto;
+    background-image: linear-gradient(to left, #600dfaa1, rgba(0, 0, 255, 0.692));
+    color:white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    margin-top: 2%;
+}
+
+#textespecial {
+    font-family: 'Kanit', sans-serif;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+#textespecial2{
+    margin-top: 3%;
+    font-family: 'Kanit', sans-serif;
 }
